@@ -2,6 +2,8 @@
 
 :root{
     --black: #000000;
+    --red:#d7463c;
+    --white: #ffffff;
     --font-family-orbitron: "Orbitron", sans-serif;
     --font-family-roboto: "Roboto", sans-serif;
     --font-optical-sizing: auto;
@@ -18,4 +20,42 @@
 
 .nav-link-detalle{
     color: var(--black);
+}
+
+
+.tit-detalle{
+    font-size: 55px;
+    margin-right: 16px;
+} 
+
+.subtit-detalle{
+    font-size: 28px;
+}
+
+.bi-wind, .bi-car-front, .bi-quote{
+    width: 50px;
+    height: 50px;
+    color: var(--red);
+}
+
+.img-detalle{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.testimonio{
+    width: 280px;
+    height: 270px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+    position: absolute;
+    bottom: -815px;
+    left: 730px;
+}
+
+.test, .nom-test{
+    color: var(--white);
 }
